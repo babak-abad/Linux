@@ -1,0 +1,5 @@
+How to change sleep mode to deep sleep:
+
+1- Edit your grub configuration: sudo nano /etc/default/grub
+2- Replace GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" with GRUB_CMDLINE_LINUX_DEFAULT="quiet splash mem_sleep_default=deep"
+3- update Grub using sudo update-grub Reboot a
